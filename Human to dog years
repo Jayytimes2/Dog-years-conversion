@@ -1,0 +1,19 @@
+// constant showing my age is 35
+const myAge = 35;
+
+// this variable represents the first two years of a dog’s life
+let earlyYears = 2;
+earlyYears *= 10.5;
+
+// calculate the remaining years
+let laterYears = myAge - 2;
+laterYears *= 4;
+
+// total dog years
+let myAgeInDogYears = earlyYears + laterYears;
+
+// convert name to lowercase
+let myName = "Jake".toLowerCase();
+
+// final output
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
